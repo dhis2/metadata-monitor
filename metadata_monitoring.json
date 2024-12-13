@@ -9,7 +9,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OIG",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -26,7 +26,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_INA",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -43,7 +43,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_UGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -60,7 +60,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_VRMVSN",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -77,7 +77,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEAWDPT",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -94,7 +94,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DNATOU",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -111,7 +111,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CNO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -128,7 +128,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_VRWG",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -145,7 +145,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEANA",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -162,7 +162,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_UWNUR",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -179,7 +179,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_COCD",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -196,7 +196,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_IDT",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -213,7 +213,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OSU",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -230,7 +230,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PRNA",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -247,7 +247,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CNC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -264,7 +264,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PSSDPT",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -281,7 +281,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ONC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -298,7 +298,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEVEGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -315,7 +315,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CSCO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -332,7 +332,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DNI",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -349,7 +349,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEWD",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -366,7 +366,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_VNVOY",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -383,7 +383,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OSNAP",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -400,7 +400,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ING",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -417,7 +417,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CODCO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -434,7 +434,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OMS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -451,7 +451,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ICC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -468,7 +468,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_COGSS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -485,7 +485,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_UCONIDVO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -502,7 +502,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OUNICGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -519,7 +519,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEANG",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -536,7 +536,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_COSWCC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -553,7 +553,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -570,7 +570,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ONCBP",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -587,7 +587,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ONI",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -604,7 +604,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PRMNT",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -621,7 +621,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_ITD",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -638,7 +638,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OSE",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -655,7 +655,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_P3F",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -672,7 +672,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OTS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -689,7 +689,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_VRGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -706,7 +706,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CONC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -723,7 +723,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CODCC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -740,7 +740,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CCU",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -757,7 +757,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -774,7 +774,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DE",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -791,7 +791,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -808,7 +808,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PRWC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -825,7 +825,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CODC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -842,7 +842,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CUCC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -859,7 +859,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_UCONITSO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -876,7 +876,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_IGSS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -893,7 +893,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DEAAO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -910,7 +910,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PIGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -927,7 +927,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OOGC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -944,7 +944,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_COGSI",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -961,7 +961,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CODCOC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -978,7 +978,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OUVEGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -995,7 +995,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_MNVOY",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1012,7 +1012,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PIWE",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1029,7 +1029,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_IED",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1046,7 +1046,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_IVEGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1063,7 +1063,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_COEGM",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1080,7 +1080,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PRNP",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1097,7 +1097,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_PDP",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1114,7 +1114,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_URNA",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1131,7 +1131,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OMR",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1148,7 +1148,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_CWC",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1165,7 +1165,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OUWG",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1182,7 +1182,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_URWNU",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1199,7 +1199,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_DNVOY",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1216,7 +1216,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_IGS",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1233,7 +1233,7 @@
       "domainType": "AGGREGATE",
       "code": "MI_OSWSO",
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "dataElementGroups": [
         {
@@ -1253,31 +1253,12 @@
   "dataSets": [
     {
       "name": "Metadata integrity monitoring",
-      "created": "2024-12-13T14:49:34.045",
-      "lastUpdated": "2024-12-13T14:55:14.082",
       "translations": [],
-      "createdBy": {
-        "id": "xE7jOejl9FI",
-        "code": null,
-        "name": "John Traore",
-        "displayName": "John Traore",
-        "username": "admin"
-      },
       "favorites": [],
-      "lastUpdatedBy": {
-        "id": "xE7jOejl9FI",
-        "code": null,
-        "name": "John Traore",
-        "displayName": "John Traore",
-        "username": "admin"
-      },
       "sharing": {
-        "owner": "xE7jOejl9FI",
-        "external": false,
-        "users": {},
-        "userGroups": {},
         "public": "rw------"
       },
+      "createdBy": {},
       "shortName": "Metadata integrity monitoring",
       "dimensionItemType": "REPORTING_RATE",
       "legendSets": [],
@@ -1873,7 +1854,7 @@
       "compulsoryDataElementOperands": [],
       "sections": [],
       "categoryCombo": {
-        "id": "bjDvmb4bfuf"
+        "id": "mTOzqU4vCTk"
       },
       "mobile": false,
       "version": 0,

@@ -43,6 +43,14 @@ you should take care to ensure that the `config.ini` file is not shared with any
 may have access to the server. You should also ensure that the user has only the necessary permissions to
 enter data.
 
+If your instance has a default category option combination with a UID other than "HllvX50cXC0", you should
+add the following line to the `config.ini` file:
+```
+default_category_option_combo = myDefCOC1234
+```
+
+Be sure to use your own UID for the default category option combination.
+
 5. Install the metadata package on your DHIS2 instance. This metadata file contains a data element for each data
 integrity check.
 

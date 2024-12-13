@@ -5,6 +5,7 @@ from urllib.parse import urlencode
 import urllib3
 import configparser
 import base64
+import logging
 
 
 def transform_integrity_check_to_data_value(summary, dataelement_uid, period, orgunit):
@@ -34,8 +35,14 @@ class MetadataMonitor:
         self.metadata_username = self.config.get("server", "server_username", fallback=None)
         self.metadata_password = self.config.get("server", "server_password", fallback=None)
         self.metadata_token = self.config.get("server", "server_token", fallback=None)
+        self.default_coc = self.config.get("server", "default_coc",fallback="HllvX50cXC0")
+        self.logging_level = self.config.get("server", "logging_level", fallback="INFO")
         self.aggregate_dataset = self.config.get("server", "aggregate_dataset")
         self.monitoring_group = self.config.get("server", "monitor_data_element_group")
+
+        if not self.metadata_token:
+            if not (self.metadata_username and self.metadata_password):
+                raise ValueError("You must specify either a username and password or a token")
 
         if self.metadata_token:
             self.metadata_headers = {
@@ -61,13 +68,17 @@ class MetadataMonitor:
         self.http = urllib3.PoolManager()
         self.metadata = None
 
+        # init the log if needed
+        logging.basicConfig(filename='metadata_monitor.log', level=self.logging_level,
+                            format='%(asctime)s:%(levelname)s:%(message)s')
+
     def get_metadata_integrity_checks(self):
         # GET /api/dataIntegrity
         try:
             response = self.http.request("GET", self.metadata_url + "/api/dataIntegrity", headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def get_data_elements_to_monitor(self):
@@ -82,7 +93,7 @@ class MetadataMonitor:
                 de["code"] = de["code"][3:]
             return des
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def trigger_metadata_integrity_summaries(self):
@@ -92,7 +103,7 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def trigger_selected_metadata_integrity_summaries(self, checks):
@@ -103,7 +114,7 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def get_running_integrity_summary_checks(self):
@@ -113,7 +124,7 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def get_completed_integrity_summary_checks(self):
@@ -123,18 +134,22 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def get_all_metadata_integrity_summaries(self):
         self.get_metadata_integrity_checks()
+        logging.info("Triggering metadata integrity summaries")
         self.trigger_metadata_integrity_summaries()
         time.sleep(5)
         running = self.get_running_integrity_summary_checks()
-        while len(running) > 0:
-            print("Waiting for checks to complete...")
+        timeout = 600
+        while len(running) > 0 and timeout > 0:
             time.sleep(5)
             running = self.get_running_integrity_summary_checks()
+            timeout -= 5
+        logging.info("Completed metadata integrity summaries")
+        logging.info("The process took: " + str(600 - timeout) + " seconds")
         return self.get_completed_integrity_summary_checks()
 
     def get_integrity_summary_from_name(self, name, summaries):
@@ -149,7 +164,7 @@ class MetadataMonitor:
         try:
             query_params = {
                 "de": data["dataElement"],
-                "co": "HllvX50cXC0",
+                "co": self.default_coc,
                 "ds": self.aggregate_dataset,
                 "ou": data["orgUnit"],
                 "pe": data["period"],
@@ -158,11 +173,9 @@ class MetadataMonitor:
             encoded_params = urlencode(query_params)
             response = self.http.request("POST", self.metadata_url + "/api/dataValues?" + encoded_params,
                                          headers=self.metadata_headers)
-            # Get the text response
-            print(response.data.decode("utf-8"))
             return response.status
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def get_dataelements_in_dataset(self):
@@ -173,7 +186,7 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf8"))
         except Exception as e:
-            print("Error:" + str(e))
+            logging.error("Error:" + str(e))
             return None
 
     def get_level1_orgunits(self):
@@ -183,16 +196,24 @@ class MetadataMonitor:
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
-            print("Error: " + str(e))
+            logging.error("Error: " + str(e))
             return None
 
     def process_completed_checks_to_data_values(self, summaries, period, orgunit, des):
-        # For each of the checks to monitor, get the data elements to store the results, and then create the data values
+        successful_checks = []
+        failed_checks = []
         for de in des:
             summary = get_integrity_summary_from_code(de["code"], summaries)
             data = transform_integrity_check_to_data_value(summary, de["id"], period, orgunit)
             if data is not None:
-                self.create_data_value(data)
+                response = self.create_data_value(data)
+                if response == 201:
+                    successful_checks.append(de["code"])
+                else:
+                    failed_checks.append(de["code"])
+        logging.info(f"Successfully processed data values for: {len(successful_checks)}")
+        if len(failed_checks) > 0:
+            logging.info(f"Failed to process data values for: {failed_checks}")
 
 
 if __name__ == '__main__':
