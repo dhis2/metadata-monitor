@@ -173,7 +173,7 @@ class MetadataMonitor:
             encoded_params = urlencode(query_params)
             response = self.http.request("POST", self.metadata_url + "/api/dataValues?" + encoded_params,
                                          headers=self.metadata_headers)
-            return response.status
+            return response
         except Exception as e:
             logging.error("Error: " + str(e))
             return None
@@ -194,6 +194,9 @@ class MetadataMonitor:
         try:
             response = self.http.request("GET", self.metadata_url + "/api/organisationUnits?level=1",
                                          headers=self.metadata_headers)
+            logging.info(response.data.decode("utf-8"))
+            logging.info(response.status)
+            logging.info("Level 1 orgunits: " + str(json.loads(response.data.decode("utf-8"))))
             return json.loads(response.data.decode("utf-8"))
         except Exception as e:
             logging.error("Error: " + str(e))
@@ -207,9 +210,10 @@ class MetadataMonitor:
             data = transform_integrity_check_to_data_value(summary, de["id"], period, orgunit)
             if data is not None:
                 response = self.create_data_value(data)
-                if response == 201:
+                if response.status == 201:
                     successful_checks.append(de["code"])
                 else:
+                    logging.error(f"Failed to process data value for: {de['code']} with response: {response.data.decode('utf-8')}")
                     failed_checks.append(de["code"])
         logging.info(f"Successfully processed data values for: {len(successful_checks)}")
         if failed_checks:

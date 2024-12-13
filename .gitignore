@@ -2,3 +2,4 @@ config.ini
 .git
 .venv
 .idea
+metadata_monitor.log
