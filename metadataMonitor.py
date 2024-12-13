@@ -144,7 +144,7 @@ class MetadataMonitor:
         time.sleep(5)
         running = self.get_running_integrity_summary_checks()
         timeout = 600
-        while len(running) > 0 and timeout > 0:
+        while running is not None and len(running) > 0 and timeout > 0:
             time.sleep(5)
             running = self.get_running_integrity_summary_checks()
             timeout -= 5
