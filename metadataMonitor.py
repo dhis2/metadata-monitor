@@ -212,7 +212,7 @@ class MetadataMonitor:
                 else:
                     failed_checks.append(de["code"])
         logging.info(f"Successfully processed data values for: {len(successful_checks)}")
-        if len(failed_checks) > 0:
+        if failed_checks:
             logging.info(f"Failed to process data values for: {failed_checks}")
 
 
