@@ -1,0 +1,69 @@
+##Introduction
+
+Monitoring the quality of metadata over time is an important administrative task. Previously, there have not been
+great tools for doing this. This project is an attempt to create a tool that can be used to monitor the quality of your
+DHIS2 instance and track it over time.
+
+##Installation
+
+1. Clone the repository into a directory onto your server. You do not have to use the same server where
+your DHIS2 instance is running. You can run the monitor from any server that has access to the DHIS2 instance.
+
+2. Create a virtual environment in the directory and activate it using the following commands:
+```
+virtualenv venv
+source venv/bin/activate
+```
+
+3. Install the required packages using the following command:
+```
+pip install -r requirements.txt
+```
+4. Create a file called `config.ini` in the `dhis2_metadata_monitor` directory. This file should contain the following
+variables:
+```
+server_url = http://127.0.0.1:8080/dhis
+server_token = d2p_geT1QIwTkXdEnVBX9YYgLNhOe2sBvo9OYG1ECERzOhxM0TFpqJ
+aggregate_dataset = oz5AHxQzsUd
+monitor_data_element_group = yNpUqX1BiFC
+```
+
+Take note that the `aggregate_dataset` and `monitor_data_element_group` variables are the UIDs of the dataset and data
+element group that you want to monitor. You should use the same values for these UIDs as are specified above.
+
+It is also possible to use a username and password instead of a token. To do this, you can use the following variables
+in the `config.py` file:
+```
+server_username = bobbytables
+server_password = S3cureP@ssw0rd
+```
+
+This approach is not recommended as it is less secure. If you decide to use the username and password approach,
+you should take care to ensure that the `config.ini` file is not shared with any unauthorized users who
+may have access to the server. You should also ensure that the user has only the necessary permissions to
+enter data.
+
+5. Install the metadata package on your DHIS2 instance. This metadata file contains a data element for each data
+integrity check.
+
+6. Once you have installed the metadata package, you will need to assign your root level organisation unit
+to the dataset. All data will be aggregated to this organisation unit.
+
+7. You should ensure that the dataset has been shared with the user from your `config.ini` file. Whichever user
+you are using to authenticate with the DHIS2 instance should have write access to the dataset.
+
+8. A special data element group called `Metadata Integrity Checks` was imported with the metadata package. This group
+can be used to control which data elements are monitored. You can add or remove any of the metadata integrity
+data elements to this group, and only the ones present in the group will be monitored. You should be very careful
+if you include data elements which have been marked as `SLOW`, since this can take a very long time to complete. It is
+suggested that you do not include these types of checks.
+
+9. Once you have completed all of the above steps, you can run the monitor using the following command:
+```
+python monitor.py
+```
+
+10. It is recommended that you run the monitor as a cron job. You can do this by adding the following line to your crontab:
+```
+0 0 * * * /path/to/venv/bin/python /path/to/metadataMonitor.py
+```

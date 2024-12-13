@@ -1,0 +1,1906 @@
+{
+  "dataElements": [
+    {
+      "id": "hNltINUStXR",
+      "name": "[MI] Organisation units with invalid geometry.",
+      "shortName": "Orgunits Invalid Geometry",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OIG",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jQJ1wxUAJwL",
+      "name": "[MI] Indicators not used in analytical objects.",
+      "shortName": "Indicator No Analysis",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_INA",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "v0HbtyVLTjL",
+      "name": "[MI] User groups should have at least two members.",
+      "shortName": "User Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_UGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "kWcX9tdLTUL",
+      "name": "[MI] All validation rule expressions should have a missing value strategy.",
+      "shortName": "Validation Rules Missing Value Strategy Null",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_VRMVSN",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "wJKXzTP5JuQ",
+      "name": "[MI] Aggregate data elements which belong to data sets with different period types.",
+      "shortName": "Data Elements Aggregate With Different Period Type",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEAWDPT",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "yrR5nV3EtOA",
+      "name": "[MI] Data sets which have not been assigned to any organisation units.",
+      "shortName": "Datasets Not Assigned To Org Units",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DNATOU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "uSf4uBqHYLb",
+      "name": "[MI] Categories with no category options",
+      "shortName": "Categories No Options",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CNO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "k9SIhYc8lJZ",
+      "name": "[MI] Lists all validation rules that are not member of at least one validation rule group",
+      "shortName": "Validation Rules Without Groups",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_VRWG",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "rGxteilbzHE",
+      "name": "[MI] Aggregate data elements not used in any favourites (directly or through indicators)",
+      "shortName": "Data Elements Aggregate No Analysis",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEANA",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "v2Z8v62COLi",
+      "name": "[MI] Users who have no user role assigned.",
+      "shortName": "Users With No User Role",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_UWNUR",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "dOYiROuXW8S",
+      "name": "[MI] Category option combinations with disjoint associations.",
+      "shortName": "Category Option Combos Disjoint",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_COCD",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "bccLMgp9hrN",
+      "name": "[MI] Indicators with the same terms.",
+      "shortName": "Indicators Duplicated Terms",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_IDT",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "sIhM6Verb9d",
+      "name": "[MI] Option sets which are not used",
+      "shortName": "Options Sets Unused",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OSU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jFL5sg0JrHU",
+      "name": "[MI] Program rules with no action.",
+      "shortName": "Program Rules No Action",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PRNA",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "r0XLKkKLlV0",
+      "name": "[MI] Category options combinations with no category combination.",
+      "shortName": "Catoptioncombos No Catcombo",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CNC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "tpzHQrDRqdl",
+      "name": "[MI] Periods with the same start date and period type.",
+      "shortName": "Periods Same Start Date Period Type",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PSSDPT",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "bg4qH7foGIU",
+      "name": "[MI] Organisation units with no coordinates.",
+      "shortName": "Orgunits No Coordinates",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ONC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "tCqeC7FeIfQ",
+      "name": "[MI] Lists all data elements that are a members of more than one exclusive data element set belonging to the same data element group set",
+      "shortName": "Data Elements Violating Exclusive Group Sets",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEVEGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "ii7ytxM9dSH",
+      "name": "[MI] Categories with the same category options",
+      "shortName": "Categories Same Category Options",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CSCO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "nMfRQVKK8IQ",
+      "name": "[MI] Dashboards with no items.",
+      "shortName": "Dashboards No Items",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DNI",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "vKbKvM7dXTm",
+      "name": "[MI] Aggregate data elements which are not a member of any dataset.",
+      "shortName": "Data Elements Without Datasets",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEWD",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "cyMcquvOnjw",
+      "name": "[MI] Visualizations which have not been viewed in the past 12 months",
+      "shortName": "Visualizations Not Viewed One Year",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_VNVOY",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "eyvqzxgoOpD",
+      "name": "[MI] Organisation units should not have the same name and parent.",
+      "shortName": "Orgunits Same Name And Parent",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OSNAP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "gNFcU9TDGSX",
+      "name": "[MI] Indicators not in any groups.",
+      "shortName": "Indicators Not Grouped",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ING",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "skuBYwUd9KX",
+      "name": "[MI] Only one \"default\" category option should exist",
+      "shortName": "Categories One Default Category Option",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CODCO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "s7B2HTBugXo",
+      "name": "[MI] Organisation units should not have multiple spaces in their names or shortnames.",
+      "shortName": "Orgunits Multiple Spaces",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OMS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "vLn6Otes6jI",
+      "name": "[MI] Category combinations which are invalid.",
+      "shortName": "Invalid Category Combos",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ICC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "pEqRIrtk5b5",
+      "name": "[MI] Category option groups should have at least two members.",
+      "shortName": "Category Option Group Sets Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_COGSS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "gEiUplpxlnw",
+      "name": "[MI] Users who have a data capture organisation unit which is not in their data view organisation unit hierarchy.",
+      "shortName": "Users Capture Ou Not In Data View Ou",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_UCONIDVO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "tTCIn84BtVO",
+      "name": "[MI] Orgunits that are not in all compulsory orgunit group sets.",
+      "shortName": "Org Units Not In Compulsory Group Sets",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OUNICGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "iRzz8qaX7fI",
+      "name": "[MI] Aggregate data elements not in any data element groups.",
+      "shortName": "Data Elements Aggregate No Groups",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEANG",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "qNqbXotKIuz",
+      "name": "[MI] Category combinations with categories which share the same category options.",
+      "shortName": "Category Options Shared Within Category Combo",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_COSWCC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "q6thEaxRvqZ",
+      "name": "[MI] Data element groups should have at least two members.",
+      "shortName": "Data Element Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jzQFDQg1Eg1",
+      "name": "[MI] Organisation units with point coordinates should be contained by their parent.",
+      "shortName": "Orgunits Not Contained By Parent",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ONCBP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "y4I3KCF81Mj",
+      "name": "[MI] Organisation units located within 100 km of Null Island (0,0).",
+      "shortName": "Orgunits Null Island",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ONI",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "t7beiwtnOsw",
+      "name": "[MI] Program rules actions which should send or schedule a message without a message template.",
+      "shortName": "Program Rules Message No Template",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PRMNT",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "v2TOmfHoWXq",
+      "name": "[MI] Indicator types with the same factor.",
+      "shortName": "Indicator Types Duplicated",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_ITD",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "igrNGwihdha",
+      "name": "[MI] Empty option sets",
+      "shortName": "Options Sets Empty",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OSE",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "cNjzXDt6Rlz",
+      "name": "[MI] Periods which are more than three years in the future.",
+      "shortName": "Periods 3Y Future",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_P3F",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "miFYRxnylx3",
+      "name": "[MI] Organisation units should not have trailing spaces.",
+      "shortName": "Orgunits Trailing Spaces",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OTS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "hsjcOOb3Ybh",
+      "name": "[MI] Validation rule groups should have at least two members.",
+      "shortName": "Validation Rule Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_VRGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "x4ZU6FDKxDC",
+      "name": "[MI] Category options with no categories.",
+      "shortName": "Category Options No Categories",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CONC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "sr3j5M56I4B",
+      "name": "[MI] Only one \"default\" category combo should exist",
+      "shortName": "Categories One Default Category Combo",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CODCC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "g5UbtdhjN0S",
+      "name": "[MI] Category combinations not used by other metadata objects",
+      "shortName": "Category Combos Unused",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CCU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jP441lY6RBE",
+      "name": "[MI] Orphaned organisation units.",
+      "shortName": "Orgunits Orphaned",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "ftR9olVbotG",
+      "name": "[MI] Datasets with no data elements.",
+      "shortName": "Datasets Empty",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DE",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "e8Ca02xHBBh",
+      "name": "[MI] Organisation unit groups should have at least two members.",
+      "shortName": "Orgunit Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "fz3OAfQTl2O",
+      "name": "[MI] Lists all programs with rules that have no condition yet",
+      "shortName": "Program Rules Without Condition",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PRWC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "wIsuZfMj1H5",
+      "name": "[MI] Only one \"default\" category should exist",
+      "shortName": "Categories One Default Category",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CODC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jGUnjlbnBOs",
+      "name": "[MI] Different category combinations should not have the exact same combination of categories.",
+      "shortName": "Categories Unique Category Combo",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CUCC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "upjHoNroALA",
+      "name": "[MI] Users who have a data capture organisation unit which is not within their tracked entity search organisation unit hierarchy.",
+      "shortName": "Users Capture Ou Not In Tei Search Ou",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_UCONITSO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "mmZAdRxZ4ME",
+      "name": "[MI] Indicator groups sets should have at least two members.",
+      "shortName": "Indicator Group Sets Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_IGSS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "iq9TLdjuI9z",
+      "name": "[MI] Non-numeric data elements which have an aggregation operator other than NONE.",
+      "shortName": "Data Elements Aggregate Aggregation Operator",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DEAAO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "fn63vtJYfgw",
+      "name": "[MI] Program indicator groups should have at least two members.",
+      "shortName": "Program Indicator Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PIGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jGjzozgsG27",
+      "name": "[MI] Organisation units which have an opening date later than the closed date.",
+      "shortName": "Orgunits Openingdate Gt Closeddate",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OOGC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "nfqimGIWS9Z",
+      "name": "[MI] Category option group sets which which do not contain all category options.",
+      "shortName": "Category Option Group Sets Incomplete",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_COGSI",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "oJVfq9BQZkY",
+      "name": "[MI] Only one \"default\" category option combo should exist",
+      "shortName": "Categories One Default Category Option Combo",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CODCOC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "rwVDzxkzWSy",
+      "name": "[MI] Organisation units which belong to multiple groups in a group set.",
+      "shortName": "Organisation Units Violating Exclusive Group Sets",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OUVEGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "yl8If8I8og1",
+      "name": "[MI] Maps which have not been viewed in the past 12 months",
+      "shortName": "Maps Not Viewed One Year",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_MNVOY",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "viP7yJIb9HI",
+      "name": "[MI] Lists all program indicators that have no expression set yet",
+      "shortName": "Program Indicators Without Expression",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PIWE",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "m1wBSSybesf",
+      "name": "[MI] Indicators with the same formula.",
+      "shortName": "Indicators Exact Duplicates",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_IED",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "z7UXgo9mEWH",
+      "name": "[MI] Lists all indicators that are members of multiple exclusive indicator groups",
+      "shortName": "Indicators Violating Exclusive Group Sets",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_IVEGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "gBXHlNVjSds",
+      "name": "[MI] Category options which belong to multiple groups in a category option group set.",
+      "shortName": "Category Options Excess Groupset Membership",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_COEGM",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "gJugsu3q7Od",
+      "name": "[MI] Program rules with no priority.",
+      "shortName": "Program Rules No Priority",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PRNP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "rOQhAvNM7MF",
+      "name": "[MI] Periods which are in the distant past.",
+      "shortName": "Periods Distant Past",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_PDP",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "vQ7FjNU5Ofd",
+      "name": "[MI] User roles which have no authorities assigned.",
+      "shortName": "User Roles No Authorities",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_URNA",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "zPPkExJiCei",
+      "name": "[MI] The organisation unit hierarchy should have a single root.",
+      "shortName": "Orgunits Multiple Roots",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OMR",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "rafPudC4teg",
+      "name": "[MI] Category option combinations with incorrect cardinality.",
+      "shortName": "Cocs Wrong Cardinality",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_CWC",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "mBD6A3DXve8",
+      "name": "[MI] Organisation units with no groups.",
+      "shortName": "Organisation Units Without Groups",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OUWG",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "sMymeIbE8Fu",
+      "name": "[MI] User roles which have no users assigned.",
+      "shortName": "User Roles With No Users",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_URWNU",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "jpWxrHzsfx5",
+      "name": "[MI] Dashboards which have not been actively viewed in the past 12 months",
+      "shortName": "Dashboards Not Viewed One Year",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_DNVOY",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "uwJ4ml1wa5A",
+      "name": "[MI] Indicator groups should have at least two members.",
+      "shortName": "Indicator Groups Scarce",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_IGS",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    },
+    {
+      "id": "sKPFAFEGsVR",
+      "name": "[MI] Option sets with possibly wrong sort order.",
+      "shortName": "Option Sets Wrong Sort Order",
+      "aggregationType": "AVERAGE",
+      "valueType": "INTEGER_ZERO_OR_POSITIVE",
+      "domainType": "AGGREGATE",
+      "code": "MI_OSWSO",
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "dataElementGroups": [
+        {
+          "id": "yNpUqX1BiFC"
+        }
+      ]
+    }
+  ],
+  "dataElementGroups": [
+    {
+      "id": "yNpUqX1BiFC",
+      "name": "Metadata Integrity Checks",
+      "shortName": "MI Checks",
+      "dataElements": []
+    }
+  ],
+  "dataSets": [
+    {
+      "name": "Metadata integrity monitoring",
+      "created": "2024-12-13T14:49:34.045",
+      "lastUpdated": "2024-12-13T14:55:14.082",
+      "translations": [],
+      "createdBy": {
+        "id": "xE7jOejl9FI",
+        "code": null,
+        "name": "John Traore",
+        "displayName": "John Traore",
+        "username": "admin"
+      },
+      "favorites": [],
+      "lastUpdatedBy": {
+        "id": "xE7jOejl9FI",
+        "code": null,
+        "name": "John Traore",
+        "displayName": "John Traore",
+        "username": "admin"
+      },
+      "sharing": {
+        "owner": "xE7jOejl9FI",
+        "external": false,
+        "users": {},
+        "userGroups": {},
+        "public": "rw------"
+      },
+      "shortName": "Metadata integrity monitoring",
+      "dimensionItemType": "REPORTING_RATE",
+      "legendSets": [],
+      "periodType": "Daily",
+      "dataInputPeriods": [],
+      "dataSetElements": [
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "mmZAdRxZ4ME"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "uwJ4ml1wa5A"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "cNjzXDt6Rlz"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "k9SIhYc8lJZ"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "viP7yJIb9HI"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "miFYRxnylx3"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "vQ7FjNU5Ofd"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "rGxteilbzHE"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "wIsuZfMj1H5"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "gEiUplpxlnw"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "m1wBSSybesf"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "tpzHQrDRqdl"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "z7UXgo9mEWH"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "iRzz8qaX7fI"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "e8Ca02xHBBh"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "fz3OAfQTl2O"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jGjzozgsG27"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "igrNGwihdha"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "t7beiwtnOsw"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "vLn6Otes6jI"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "nMfRQVKK8IQ"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "vKbKvM7dXTm"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "nfqimGIWS9Z"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "sMymeIbE8Fu"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "sr3j5M56I4B"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "uSf4uBqHYLb"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "yl8If8I8og1"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jGUnjlbnBOs"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "sIhM6Verb9d"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "upjHoNroALA"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "v2TOmfHoWXq"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jzQFDQg1Eg1"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "fn63vtJYfgw"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "pEqRIrtk5b5"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jQJ1wxUAJwL"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "s7B2HTBugXo"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "r0XLKkKLlV0"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "x4ZU6FDKxDC"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "rwVDzxkzWSy"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "dOYiROuXW8S"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "bccLMgp9hrN"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "q6thEaxRvqZ"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "rOQhAvNM7MF"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "hNltINUStXR"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "zPPkExJiCei"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "eyvqzxgoOpD"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "v0HbtyVLTjL"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "y4I3KCF81Mj"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "ii7ytxM9dSH"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "gJugsu3q7Od"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "rafPudC4teg"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "ftR9olVbotG"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "qNqbXotKIuz"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "hsjcOOb3Ybh"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "tCqeC7FeIfQ"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "g5UbtdhjN0S"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "gNFcU9TDGSX"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "wJKXzTP5JuQ"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "bg4qH7foGIU"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "oJVfq9BQZkY"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "skuBYwUd9KX"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "v2Z8v62COLi"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "yrR5nV3EtOA"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jFL5sg0JrHU"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jP441lY6RBE"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "mBD6A3DXve8"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "iq9TLdjuI9z"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "cyMcquvOnjw"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "kWcX9tdLTUL"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "tTCIn84BtVO"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "gBXHlNVjSds"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "jpWxrHzsfx5"
+          }
+        },
+        {
+          "dataSet": {
+            "id": "oz5AHxQzsUd"
+          },
+          "dataElement": {
+            "id": "sKPFAFEGsVR"
+          }
+        }
+      ],
+      "indicators": [],
+      "compulsoryDataElementOperands": [],
+      "sections": [],
+      "categoryCombo": {
+        "id": "bjDvmb4bfuf"
+      },
+      "mobile": false,
+      "version": 0,
+      "expiryDays": 0,
+      "timelyDays": 15,
+      "notifyCompletingUser": false,
+      "interpretations": [],
+      "openFuturePeriods": 1,
+      "openPeriodsAfterCoEndDate": 0,
+      "fieldCombinationRequired": false,
+      "validCompleteOnly": false,
+      "noValueRequiresComment": false,
+      "skipOffline": false,
+      "dataElementDecoration": false,
+      "renderAsTabs": false,
+      "renderHorizontally": false,
+      "compulsoryFieldsCompleteOnly": false,
+      "formType": "DEFAULT",
+      "favorite": false,
+      "user": {},
+      "displayName": "Metadata integrity monitoring",
+      "dimensionItem": "oz5AHxQzsUd",
+      "displayShortName": "Metadata integrity monitoring",
+      "displayFormName": "Metadata integrity monitoring",
+      "id": "oz5AHxQzsUd",
+      "attributeValues": [],
+      "organisationUnits": []
+    }
+  ]
+}

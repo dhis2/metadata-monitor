@@ -1,5 +1,4 @@
 import json
-import sys
 import time
 from urllib.parse import urlencode
 
@@ -32,20 +31,33 @@ class MetadataMonitor:
         self.config = configparser.ConfigParser()
         self.config.read("config.ini")
         self.metadata_url = self.config.get("server", "server_url")
-        self.metadata_username = self.config.get("server", "server_username")
-        self.metadata_password = self.config.get("server", "server_password")
+        self.metadata_username = self.config.get("server", "server_username", fallback=None)
+        self.metadata_password = self.config.get("server", "server_password", fallback=None)
+        self.metadata_token = self.config.get("server", "server_token", fallback=None)
         self.aggregate_dataset = self.config.get("server", "aggregate_dataset")
         self.monitoring_group = self.config.get("server", "monitor_data_element_group")
-        self.metadata_headers = {
-            "Content-Type": "application/json",
-            "Authorization": "Basic " + base64.b64encode(
-                (self.metadata_username + ":" + self.metadata_password).encode()).decode()
-        }
-        self.datavalue_headers = {
-            "Content-Type": "application/x-www-form-urlencoded",
-            "Authorization": "Basic " + base64.b64encode(
-                (self.metadata_username + ":" + self.metadata_password).encode()).decode()
-        }
+
+        if self.metadata_token:
+            self.metadata_headers = {
+                "Content-Type": "application/json",
+                "Authorization": "ApiToken " + self.metadata_token
+            }
+            self.datavalue_headers = {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Authorization": "ApiToken " + self.metadata_token
+            }
+        else:
+            auth_header = "Basic " + base64.b64encode(
+            (self.metadata_username + ":" + self.metadata_password).encode()).decode()
+            self.metadata_headers = {
+                "Content-Type": "application/json",
+                "Authorization": auth_header
+            }
+            self.datavalue_headers = {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Authorization": auth_header
+            }
+
         self.http = urllib3.PoolManager()
         self.metadata = None
 
@@ -115,18 +127,14 @@ class MetadataMonitor:
             return None
 
     def get_all_metadata_integrity_summaries(self):
-        # Get a list of all checks
         self.get_metadata_integrity_checks()
-        # Trigger all of the checks
         self.trigger_metadata_integrity_summaries()
-        # Wait about 5 seconds and then poll to see if the checks are done
         time.sleep(5)
         running = self.get_running_integrity_summary_checks()
         while len(running) > 0:
             print("Waiting for checks to complete...")
             time.sleep(5)
             running = self.get_running_integrity_summary_checks()
-        # Return the completed checks
         return self.get_completed_integrity_summary_checks()
 
     def get_integrity_summary_from_name(self, name, summaries):
@@ -139,12 +147,10 @@ class MetadataMonitor:
     def create_data_value(self, data):
         # POST /api/dataValue
         try:
-            # Need to POST the data as form data like this
-            # curl "https://play.dhis2.org/demo/api/dataValues?de=s46m5MS0hxu&pe=201301&ou=DiszpKrYNg8&co=Prlt0C1RF0s&value=12"
             query_params = {
                 "de": data["dataElement"],
                 "co": "HllvX50cXC0",
-                "ds": "ySAQjSSyLQg",
+                "ds": self.aggregate_dataset,
                 "ou": data["orgUnit"],
                 "pe": data["period"],
                 "value": data["value"]
@@ -163,7 +169,7 @@ class MetadataMonitor:
         # GET dataSets/ySAQjSSyLQg?fields=dataSetElements[dataElement[id,code]]
         try:
             response = self.http.request("GET",
-                                         self.metadata_url + "/api/dataSets/ySAQjSSyLQg?fields=dataSetElements[dataElement[id,code]]",
+                                         self.metadata_url + "/api/dataSets/" + self.aggregate_dataset + "?fields=dataSetElements[dataElement[id,code]]",
                                          headers=self.metadata_headers)
             return json.loads(response.data.decode("utf8"))
         except Exception as e:
