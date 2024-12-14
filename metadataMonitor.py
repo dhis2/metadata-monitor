@@ -221,6 +221,7 @@ class MetadataMonitor:
 
 
 if __name__ == '__main__':
+    logging.info("Starting metadata monitor")
     monitor = MetadataMonitor()
     all_checks = monitor.get_metadata_integrity_checks()
     summaries = monitor.get_all_metadata_integrity_summaries()
@@ -228,3 +229,4 @@ if __name__ == '__main__':
     orgunit = monitor.get_level1_orgunits()
     period = time.strftime("%Y%m%d")
     monitor.process_completed_checks_to_data_values(summaries, period, orgunit["organisationUnits"][0]["id"], des)
+    logging.info("Metadata monitor completed")
