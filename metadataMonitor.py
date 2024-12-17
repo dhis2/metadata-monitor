@@ -126,7 +126,7 @@ class MetadataMonitor:
             "id": uid,
             "name": "[MI] " + check.get("displayName", "Placeholder metadata integrity check " + uid),
             "shortName": check["name"].replace("_", " ").title()[:50],
-            "aggregationType": "AVERAGE",
+            "aggregationType": "LAST",
             "valueType": "INTEGER_ZERO_OR_POSITIVE",
             "domainType": "AGGREGATE",
             "code": "MI_" + check["code"],
