@@ -1,10 +1,10 @@
-##Introduction
+## Introduction
 
 Monitoring the quality of metadata over time is an important administrative task. Previously, there have not been
 great tools for doing this. This project is an attempt to create a tool that can be used to monitor the quality of your
 DHIS2 instance and track it over time.
 
-##Installation
+## Installation
 
 1. Clone the repository into a directory onto your server. You do not have to use the same server where
 your DHIS2 instance is running. You can run the monitor from any server that has access to the DHIS2 instance.
@@ -67,7 +67,6 @@ log_level = INFO
 ```
 
 The default log level is `INFO`. You can also use `DEBUG` or `ERROR`.
-
 
 5. Install the metadata package on your DHIS2 instance. This metadata file contains a data element for each data
 integrity check.
